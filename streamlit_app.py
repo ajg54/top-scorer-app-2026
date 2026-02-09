@@ -8,7 +8,8 @@ pg = st.navigation(
      st.Page(os.path.join(pages_dir, "runners.py"), title="Runners and Riders", icon=":material/sports_score:"),
      st.Page(os.path.join(pages_dir, "constructors.py"), title="Constructors' Championship",
              icon=":material/sports_motorsports:"),
-     st.Page(os.path.join(pages_dir, "history.py"), title="History", icon=":material/history:")])
+     st.Page(os.path.join(pages_dir, "history.py"), title="History", icon=":material/history:"),
+     st.Page(os.path.join(pages_dir, "bethell.py"), title="BEThell", icon=":material/poker_chip:")])
 st.set_page_config(page_icon=":material/sports_cricket:", page_title="Top Scorer", layout="wide")
 st.session_state['base_year'] = 2026
 temp_date = datetime.date.today()
